@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.menu {
+    
+    
+    @include tablet {
+        width:75%;
+        float: right;
+        clear: both;
+    }
+    @include desktop{
+        width: 85%;
+    }
+}

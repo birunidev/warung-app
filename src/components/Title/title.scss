@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.title {
+    margin-top: 60px;
+    padding: 20px 0;
+    text-align: center;
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Montaga';
+        margin-bottom: 20px;
+
+        @include tablet {
+            font-size: 50px;
+        }
+    }
+}

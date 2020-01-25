@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.orders {
+    
+    
+    @include tablet {
+        width:75%;
+        float: right;
+        clear: both;
+    }
+    @include desktop{
+        width: 85%;
+    }
+    .none{
+        margin-top: 30px;
+        text-align: center;
+    }
+}

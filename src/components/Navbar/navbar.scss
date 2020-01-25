@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.navbar {
+    z-index: 99;
+    padding: 10px;
+    background: $yellow;
+    min-height: 30px;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    
+
+    .nav-flex {
+        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.foodcard{
+    
+    margin: 20px auto;
+
+    @include tablet {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .food-detail {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .buttons {
+        select {
+            border: none;
+            margin-right: 10px;
+        }
+        button {
+            border-radius: 5px;
+            border: 1px solid $orange;
+            background: transparent;
+            color: $orange;
+            font-size: 20px;
+            font-weight: 700;
+            outline: none;
+            transition: .3s ease;
+
+            &:hover{
+                background-color: $orange;
+                color: white;
+            }
+        }
+        
+    }
+}

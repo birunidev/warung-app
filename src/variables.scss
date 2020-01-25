@@ -1,0 +1,17 @@
+$yellow: #e29522;
+$orange: #e25822;
+$darkBg: #181616;
+$bgColor: #232020;
+
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
